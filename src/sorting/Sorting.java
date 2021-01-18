@@ -1,14 +1,9 @@
+package sorting;
+
 import java.util.Arrays;
 
-public class Insertion {
-    public static void main(String [] args){
-        //init unsorted array
-        int [] unsorted = {10, 4, 55, 76, 32, 64, 2,5 , 6, 8, 1};
-        int [] sorted = sort(unsorted);
-        System.out.println(Arrays.toString(sorted));
-    }
-
-    private static int[] sort(int[] unsorted){
+public class Sorting {
+    public static int[] sort(int[] unsorted){
         //insertion sort basically finds the correct value to place at an index/position, one at a time
         //Starts from the 1st index, and finds the minimum value and inserts it into the 1st
         //The iteration continues till the n-1 index, where n is the size of the array.
